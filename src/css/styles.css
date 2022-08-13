@@ -65,3 +65,6 @@ button{
  background-color:blue;
  color: aliceblue;
 }
+.load-more.is-hidden {
+  display: none;
+}

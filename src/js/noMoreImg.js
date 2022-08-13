@@ -1,4 +1,4 @@
-import { getRefs } from "../js/getRefs";
+import { getRefs } from "./getRefs";
 import { Notify } from "notiflix";
 
 const refs = getRefs();
