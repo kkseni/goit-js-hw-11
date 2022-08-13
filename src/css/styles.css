@@ -12,9 +12,23 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
+#search-form {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  background-color:blue;
+  height: 50px;
+}
+input{
+margin-right: 20px;
+border: none;
+border-radius: 5px;
+padding-left: 5px;
+}
+button{
+  
+  border: none;
+  border-radius: 5px;
+  height: 32px;
 }
