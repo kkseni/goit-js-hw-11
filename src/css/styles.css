@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   color: #212121;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 #search-form {
@@ -31,4 +31,37 @@ button{
   border: none;
   border-radius: 5px;
   height: 32px;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+    align-items: center;
+    margin-left: 120px;
+    margin-top: 30px;
+    
+}
+.photo-card{
+  display: flex;
+    flex-direction: column;
+    width: 354px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.info{
+    display: flex;
+      text-align: center;
+      font-size: 14px;
+      justify-content: space-between;
+      padding: 10px 15px;
+      background-color:  rgb(0, 149, 255);
+      color:aliceblue;
+    }
+.load-more{
+ margin: 0 auto;
+ margin-top: 10px;
+ display: block;
+ background-color:blue;
+ color: aliceblue;
 }

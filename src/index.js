@@ -45,6 +45,6 @@ function onMoreLoadBtnClick() {
     getImg(searchQuery, page).then(res => {
         markup(res);
         isEndOfImg(page, totalHits);
-        page += 1;   
-    });   
+        page += 1;
+    });
 }
